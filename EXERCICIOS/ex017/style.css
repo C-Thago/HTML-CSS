@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+/* Medidas Absolutas
+cm, mm, in, px, pt, px
+USAR PX
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+USAR EM (16px geralmente = 1em)
+
+Weight: Peso / Width: Largura / Hight: Altura
+*/
+
+body {
+    font-family: "work Sans", Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bolder;
+    /* Valores por nome: Lighter normal bold bolder */
+    font-style: italic;
+
+}
+h1 {
+    font-family: 'work Sans', serif;
+    font-weight: bolder;
+    font-size: 5em;
+    font-style: italic;
+    /* shorthand font (serve para "dizer" várias coisas em uma só linha)
+    font: font-style -> font-weight -> font-size -> font-family
+    ex: font: italic bolder 3em 'work Sans', serif; */
+}
+
+h2 {
+    font: bold 4em "work Sans", serif;
+}

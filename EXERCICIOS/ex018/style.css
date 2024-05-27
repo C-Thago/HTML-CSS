@@ -1,0 +1,19 @@
+/* Inicio das fontes importadas do google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap' );
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Tangerine:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display= trocar');
+
+/* Fim das fontes importadas do google fontes  */
+
+h1 {
+    font-family: Tangerine;
+    color: black;
+    font-weight: bolder;
+    font-size: 8em;
+}
+p {
+    font-family: tangerine;
+    font-size: xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+}

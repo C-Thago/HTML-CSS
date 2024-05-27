@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>Imagens dinâmica</H1>
+    <p>Tente abrir esse site m vários dispositivos difreents ou simplsmente aumente e diminua o tamanho do seu navgador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="foto-g">
+    </picture>
+
+    <h1>Áudio no site</h1>
+    <p>Aprendendo a colocar áudio no HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/Decimate - Jeremy Blake.mp3" type="audio/mpeg">
+        <source src="audio/Decimate - Jeremy Blake.ogg" type="audio/ogg">
+        <source src="audio/Decimate - Jeremy Blake.wav" type="audio/wav">
+    </audio>
+    <p>Seu nevegador não consegue reproduzir áudio. <a href="audio/Decimate - Jeremy Blake.mp3" download="audio/Decimate - Jeremy Blake.mp3" type="application/vnd.apple.mpegurl">CLIQUE AQUI</a> para fazer o donwload.</p>
+</body>
+</html>

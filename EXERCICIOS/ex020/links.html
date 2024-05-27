@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* Pseudoclasse sobre o link que ja foi visitado */
+a:visited {
+    color: darkred;
+}
+/* Pseudoclasse quando passa o mouse em cima */
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Pseudoclasse sobre o link ativo (link clicado) */
+a:active {
+    color: yellow;
+}
+/* PseudoElemento usa :: */
+.especial::after {
+    content: ' [LINK]';
+    text-decoration: none;
+    font-weight: normal;
+    color: gray;
+}
+.especial::before {
+    content: '\002708  ';
+    color: rgb(0, 0, 0);
+
+}
+.especial {
+    background-color: rgba(25, 0, 255, 0.308);
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <button>
+            <li><a href="https://gustavoguanabara.github.io" class="especial">Repositório GitHub</a></li>
+        </button>
+        <li><a href="https://youtube.com/cursoemvideo/" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do CursoemVídeo</a></li>
+    </ul>
+
+</body>
+</html>
